@@ -8,7 +8,7 @@ function calculate(){
   }else if(name == "Seolyeongbae" || name == "eungichoi"){
     score = 990;
   }else{
-    score = rand(500,991)
+    score = rand(650,991)
   }
   return score
 }
