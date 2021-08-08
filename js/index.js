@@ -25,6 +25,9 @@ function rand(min, max) {
 function changeByJS() {
   let x = document.querySelector("#score");
   let score = calculate();
+  if (score==undefined){
+    return;
+  }
   let scoreText = score+"점";
   x.innerText= scoreText;
 }
